@@ -22,7 +22,7 @@ class MainViewController: UIViewController {
         centerLabel.textAlignment = .center
         centerLabel.center = view.center
         
-        view.addSubview(centerLabel)
+        view.addSubview(centerLabel)        
     }
 }
 

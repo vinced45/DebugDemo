@@ -31,12 +31,12 @@
 		6139B2392314C40A00713CCD /* FontViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B2372314C40A00713CCD /* FontViewCell.xib */; };
 		6139B23B2314C8F000713CCD /* DebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B23A2314C8F000713CCD /* DebugTableViewController.swift */; };
 		6139B23D2314CBA800713CCD /* StringTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B23C2314CBA800713CCD /* StringTableViewController.swift */; };
-		6139B2402315733900713CCD /* TestCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B23E2315733900713CCD /* TestCartViewController.swift */; };
-		6139B2412315733900713CCD /* TestCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B23F2315733900713CCD /* TestCartViewController.xib */; };
-		6139B2432315744F00713CCD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2422315744F00713CCD /* LoginViewController.swift */; };
 		6139B2462315823500713CCD /* StringsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2442315823500713CCD /* StringsViewCell.swift */; };
 		6139B2472315823500713CCD /* StringsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B2452315823500713CCD /* StringsViewCell.xib */; };
 		6139B24A2315849200713CCD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6139B24C2315849200713CCD /* Localizable.strings */; };
+		6139B2502315A5B200713CCD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B24E2315A5B200713CCD /* LoginViewController.swift */; };
+		6139B2512315A5B200713CCD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B24F2315A5B200713CCD /* LoginViewController.xib */; };
+		6139B2582315A6F400713CCD /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2552315A6F400713CCD /* StarRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,13 +66,13 @@
 		6139B2372314C40A00713CCD /* FontViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontViewCell.xib; sourceTree = "<group>"; };
 		6139B23A2314C8F000713CCD /* DebugTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTableViewController.swift; sourceTree = "<group>"; };
 		6139B23C2314CBA800713CCD /* StringTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTableViewController.swift; sourceTree = "<group>"; };
-		6139B23E2315733900713CCD /* TestCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCartViewController.swift; sourceTree = "<group>"; };
-		6139B23F2315733900713CCD /* TestCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCartViewController.xib; sourceTree = "<group>"; };
-		6139B2422315744F00713CCD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6139B2442315823500713CCD /* StringsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsViewCell.swift; sourceTree = "<group>"; };
 		6139B2452315823500713CCD /* StringsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StringsViewCell.xib; sourceTree = "<group>"; };
 		6139B24B2315849200713CCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6139B24D2315857300713CCD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6139B24E2315A5B200713CCD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6139B24F2315A5B200713CCD /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6139B2552315A6F400713CCD /* StarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +144,7 @@
 		6139B21D2314602000713CCD /* DemoClasses */ = {
 			isa = PBXGroup;
 			children = (
+				6139B2552315A6F400713CCD /* StarRatingView.swift */,
 				6139B21E2314604D00713CCD /* MainViewController.swift */,
 				6139B2212314703E00713CCD /* Demo+UIDebug.swift */,
 				6139B22A2314789600713CCD /* DebugUXStyleTableViewController.swift */,
@@ -153,11 +154,10 @@
 				6139B2372314C40A00713CCD /* FontViewCell.xib */,
 				6139B23A2314C8F000713CCD /* DebugTableViewController.swift */,
 				6139B23C2314CBA800713CCD /* StringTableViewController.swift */,
-				6139B23E2315733900713CCD /* TestCartViewController.swift */,
-				6139B23F2315733900713CCD /* TestCartViewController.xib */,
-				6139B2422315744F00713CCD /* LoginViewController.swift */,
 				6139B2442315823500713CCD /* StringsViewCell.swift */,
 				6139B2452315823500713CCD /* StringsViewCell.xib */,
+				6139B24E2315A5B200713CCD /* LoginViewController.swift */,
+				6139B24F2315A5B200713CCD /* LoginViewController.xib */,
 			);
 			path = DemoClasses;
 			sourceTree = "<group>";
@@ -231,12 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6139B2412315733900713CCD /* TestCartViewController.xib in Resources */,
 				6139B2352314C3FA00713CCD /* ColorViewCell.xib in Resources */,
 				6139B1FD231413F900713CCD /* LaunchScreen.storyboard in Resources */,
 				6139B24A2315849200713CCD /* Localizable.strings in Resources */,
 				6139B1FA231413F900713CCD /* Assets.xcassets in Resources */,
 				6139B2392314C40A00713CCD /* FontViewCell.xib in Resources */,
+				6139B2512315A5B200713CCD /* LoginViewController.xib in Resources */,
 				6139B2472315823500713CCD /* StringsViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,17 +254,17 @@
 				6139B21A23145EFB00713CCD /* UIDebugClassDetailViewController.swift in Sources */,
 				6139B21723145EFB00713CCD /* UIDebugClassCollectionViewController.swift in Sources */,
 				6139B2272314732C00713CCD /* DDStyle.swift in Sources */,
-				6139B2402315733900713CCD /* TestCartViewController.swift in Sources */,
 				6139B2252314721F00713CCD /* DDColor.swift in Sources */,
 				6139B21F2314604D00713CCD /* MainViewController.swift in Sources */,
 				6139B21523145EFB00713CCD /* UIDebugClassListViewController.swift in Sources */,
-				6139B2432315744F00713CCD /* LoginViewController.swift in Sources */,
 				6139B21823145EFB00713CCD /* UIDebug+UIViews.swift in Sources */,
+				6139B2502315A5B200713CCD /* LoginViewController.swift in Sources */,
 				6139B21C23145EFB00713CCD /* UIDebugBundleListViewController.swift in Sources */,
 				6139B2292314754800713CCD /* DDString.swift in Sources */,
 				6139B2462315823500713CCD /* StringsViewCell.swift in Sources */,
 				6139B1F3231413F800713CCD /* AppDelegate.swift in Sources */,
 				6139B21923145EFB00713CCD /* UIDebug+Enums.swift in Sources */,
+				6139B2582315A6F400713CCD /* StarRatingView.swift in Sources */,
 				6139B22B2314789600713CCD /* DebugUXStyleTableViewController.swift in Sources */,
 				6139B21623145EFB00713CCD /* UIDebug+Protocols.swift in Sources */,
 				6139B23B2314C8F000713CCD /* DebugTableViewController.swift in Sources */,

@@ -24,6 +24,7 @@ struct DDString {
         ("Hidden Debug", String.hiddenDebug),
         ("Strings", String.strings),
         ("Debug Views", String.debugViews),
+        ("Views", String.views),
         ]
 }
 
@@ -43,6 +44,7 @@ extension String {
     static let main = "Main".localized
     static let debug = "Debug".localized
     static let mainViewDescription = "This Controller is the main controller of the app".localized
+    static let loginViewDescription = "This Controller is the login controller of the app".localized
     static let mainAppControllers = "Main App Controllers".localized
     static let tableViewCells = "Table View Cells".localized
     static let none = "None".localized
@@ -53,4 +55,7 @@ extension String {
     static let hiddenDebug = "Hidden Debug".localized
     static let strings = "Strings".localized
     static let debugViews = "Debug Views".localized
+    static let views = "Views".localized
+    static let login = "Login".localized
+    static let hidePassword = "Hide Password Field".localized
 }
