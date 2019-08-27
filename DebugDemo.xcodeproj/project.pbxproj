@@ -8,20 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		6139B1F3231413F800713CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B1F2231413F800713CCD /* AppDelegate.swift */; };
-		6139B1F5231413F800713CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B1F4231413F800713CCD /* ViewController.swift */; };
-		6139B1F8231413F800713CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6139B1F6231413F800713CCD /* Main.storyboard */; };
 		6139B1FA231413F900713CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6139B1F9231413F900713CCD /* Assets.xcassets */; };
 		6139B1FD231413F900713CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6139B1FB231413F900713CCD /* LaunchScreen.storyboard */; };
+		6139B21423145EFB00713CCD /* UIDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B20B23145EFB00713CCD /* UIDebug.swift */; };
+		6139B21523145EFB00713CCD /* UIDebugClassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B20C23145EFB00713CCD /* UIDebugClassListViewController.swift */; };
+		6139B21623145EFB00713CCD /* UIDebug+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B20D23145EFB00713CCD /* UIDebug+Protocols.swift */; };
+		6139B21723145EFB00713CCD /* UIDebugClassCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B20E23145EFB00713CCD /* UIDebugClassCollectionViewController.swift */; };
+		6139B21823145EFB00713CCD /* UIDebug+UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B20F23145EFB00713CCD /* UIDebug+UIViews.swift */; };
+		6139B21923145EFB00713CCD /* UIDebug+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B21023145EFB00713CCD /* UIDebug+Enums.swift */; };
+		6139B21A23145EFB00713CCD /* UIDebugClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B21123145EFB00713CCD /* UIDebugClassDetailViewController.swift */; };
+		6139B21B23145EFB00713CCD /* UIDebug+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B21223145EFB00713CCD /* UIDebug+Extensions.swift */; };
+		6139B21C23145EFB00713CCD /* UIDebugBundleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B21323145EFB00713CCD /* UIDebugBundleListViewController.swift */; };
+		6139B21F2314604D00713CCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B21E2314604D00713CCD /* MainViewController.swift */; };
+		6139B2222314703E00713CCD /* Demo+UIDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2212314703E00713CCD /* Demo+UIDebug.swift */; };
+		6139B2252314721F00713CCD /* DDColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2242314721F00713CCD /* DDColor.swift */; };
+		6139B2272314732C00713CCD /* DDStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2262314732C00713CCD /* DDStyle.swift */; };
+		6139B2292314754800713CCD /* DDString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2282314754800713CCD /* DDString.swift */; };
+		6139B22B2314789600713CCD /* DebugUXStyleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B22A2314789600713CCD /* DebugUXStyleTableViewController.swift */; };
+		6139B2342314C3FA00713CCD /* ColorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2322314C3FA00713CCD /* ColorViewCell.swift */; };
+		6139B2352314C3FA00713CCD /* ColorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B2332314C3FA00713CCD /* ColorViewCell.xib */; };
+		6139B2382314C40A00713CCD /* FontViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2362314C40A00713CCD /* FontViewCell.swift */; };
+		6139B2392314C40A00713CCD /* FontViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B2372314C40A00713CCD /* FontViewCell.xib */; };
+		6139B23B2314C8F000713CCD /* DebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B23A2314C8F000713CCD /* DebugTableViewController.swift */; };
+		6139B23D2314CBA800713CCD /* StringTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B23C2314CBA800713CCD /* StringTableViewController.swift */; };
+		6139B2402315733900713CCD /* TestCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B23E2315733900713CCD /* TestCartViewController.swift */; };
+		6139B2412315733900713CCD /* TestCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B23F2315733900713CCD /* TestCartViewController.xib */; };
+		6139B2432315744F00713CCD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2422315744F00713CCD /* LoginViewController.swift */; };
+		6139B2462315823500713CCD /* StringsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139B2442315823500713CCD /* StringsViewCell.swift */; };
+		6139B2472315823500713CCD /* StringsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6139B2452315823500713CCD /* StringsViewCell.xib */; };
+		6139B24A2315849200713CCD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6139B24C2315849200713CCD /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6139B1EF231413F800713CCD /* DebugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6139B1F2231413F800713CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6139B1F4231413F800713CCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6139B1F7231413F800713CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6139B1F9231413F900713CCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6139B1FC231413F900713CCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6139B1FE231413F900713CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6139B20B23145EFB00713CCD /* UIDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebug.swift; sourceTree = "<group>"; };
+		6139B20C23145EFB00713CCD /* UIDebugClassListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebugClassListViewController.swift; sourceTree = "<group>"; };
+		6139B20D23145EFB00713CCD /* UIDebug+Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDebug+Protocols.swift"; sourceTree = "<group>"; };
+		6139B20E23145EFB00713CCD /* UIDebugClassCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebugClassCollectionViewController.swift; sourceTree = "<group>"; };
+		6139B20F23145EFB00713CCD /* UIDebug+UIViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDebug+UIViews.swift"; sourceTree = "<group>"; };
+		6139B21023145EFB00713CCD /* UIDebug+Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDebug+Enums.swift"; sourceTree = "<group>"; };
+		6139B21123145EFB00713CCD /* UIDebugClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebugClassDetailViewController.swift; sourceTree = "<group>"; };
+		6139B21223145EFB00713CCD /* UIDebug+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDebug+Extensions.swift"; sourceTree = "<group>"; };
+		6139B21323145EFB00713CCD /* UIDebugBundleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDebugBundleListViewController.swift; sourceTree = "<group>"; };
+		6139B21E2314604D00713CCD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6139B2212314703E00713CCD /* Demo+UIDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Demo+UIDebug.swift"; sourceTree = "<group>"; };
+		6139B2242314721F00713CCD /* DDColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDColor.swift; sourceTree = "<group>"; };
+		6139B2262314732C00713CCD /* DDStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDStyle.swift; sourceTree = "<group>"; };
+		6139B2282314754800713CCD /* DDString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDString.swift; sourceTree = "<group>"; };
+		6139B22A2314789600713CCD /* DebugUXStyleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugUXStyleTableViewController.swift; sourceTree = "<group>"; };
+		6139B2322314C3FA00713CCD /* ColorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewCell.swift; sourceTree = "<group>"; };
+		6139B2332314C3FA00713CCD /* ColorViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorViewCell.xib; sourceTree = "<group>"; };
+		6139B2362314C40A00713CCD /* FontViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewCell.swift; sourceTree = "<group>"; };
+		6139B2372314C40A00713CCD /* FontViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontViewCell.xib; sourceTree = "<group>"; };
+		6139B23A2314C8F000713CCD /* DebugTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTableViewController.swift; sourceTree = "<group>"; };
+		6139B23C2314CBA800713CCD /* StringTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTableViewController.swift; sourceTree = "<group>"; };
+		6139B23E2315733900713CCD /* TestCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCartViewController.swift; sourceTree = "<group>"; };
+		6139B23F2315733900713CCD /* TestCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCartViewController.xib; sourceTree = "<group>"; };
+		6139B2422315744F00713CCD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6139B2442315823500713CCD /* StringsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsViewCell.swift; sourceTree = "<group>"; };
+		6139B2452315823500713CCD /* StringsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StringsViewCell.xib; sourceTree = "<group>"; };
+		6139B24B2315849200713CCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6139B24D2315857300713CCD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +105,71 @@
 		6139B1F1231413F800713CCD /* DebugDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6139B24C2315849200713CCD /* Localizable.strings */,
+				6139B20423144A6F00713CCD /* Classes */,
 				6139B1F2231413F800713CCD /* AppDelegate.swift */,
-				6139B1F4231413F800713CCD /* ViewController.swift */,
-				6139B1F6231413F800713CCD /* Main.storyboard */,
 				6139B1F9231413F900713CCD /* Assets.xcassets */,
 				6139B1FB231413F900713CCD /* LaunchScreen.storyboard */,
 				6139B1FE231413F900713CCD /* Info.plist */,
 			);
 			path = DebugDemo;
+			sourceTree = "<group>";
+		};
+		6139B20423144A6F00713CCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6139B2232314720C00713CCD /* Styling */,
+				6139B21D2314602000713CCD /* DemoClasses */,
+				6139B20A23145EFB00713CCD /* UIDebug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6139B20A23145EFB00713CCD /* UIDebug */ = {
+			isa = PBXGroup;
+			children = (
+				6139B20B23145EFB00713CCD /* UIDebug.swift */,
+				6139B20C23145EFB00713CCD /* UIDebugClassListViewController.swift */,
+				6139B20D23145EFB00713CCD /* UIDebug+Protocols.swift */,
+				6139B20E23145EFB00713CCD /* UIDebugClassCollectionViewController.swift */,
+				6139B20F23145EFB00713CCD /* UIDebug+UIViews.swift */,
+				6139B21023145EFB00713CCD /* UIDebug+Enums.swift */,
+				6139B21123145EFB00713CCD /* UIDebugClassDetailViewController.swift */,
+				6139B21223145EFB00713CCD /* UIDebug+Extensions.swift */,
+				6139B21323145EFB00713CCD /* UIDebugBundleListViewController.swift */,
+			);
+			path = UIDebug;
+			sourceTree = "<group>";
+		};
+		6139B21D2314602000713CCD /* DemoClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6139B21E2314604D00713CCD /* MainViewController.swift */,
+				6139B2212314703E00713CCD /* Demo+UIDebug.swift */,
+				6139B22A2314789600713CCD /* DebugUXStyleTableViewController.swift */,
+				6139B2322314C3FA00713CCD /* ColorViewCell.swift */,
+				6139B2332314C3FA00713CCD /* ColorViewCell.xib */,
+				6139B2362314C40A00713CCD /* FontViewCell.swift */,
+				6139B2372314C40A00713CCD /* FontViewCell.xib */,
+				6139B23A2314C8F000713CCD /* DebugTableViewController.swift */,
+				6139B23C2314CBA800713CCD /* StringTableViewController.swift */,
+				6139B23E2315733900713CCD /* TestCartViewController.swift */,
+				6139B23F2315733900713CCD /* TestCartViewController.xib */,
+				6139B2422315744F00713CCD /* LoginViewController.swift */,
+				6139B2442315823500713CCD /* StringsViewCell.swift */,
+				6139B2452315823500713CCD /* StringsViewCell.xib */,
+			);
+			path = DemoClasses;
+			sourceTree = "<group>";
+		};
+		6139B2232314720C00713CCD /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				6139B2242314721F00713CCD /* DDColor.swift */,
+				6139B2262314732C00713CCD /* DDStyle.swift */,
+				6139B2282314754800713CCD /* DDString.swift */,
+			);
+			path = Styling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +214,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 6139B1E6231413F700713CCD;
 			productRefGroup = 6139B1F0231413F800713CCD /* Products */;
@@ -122,9 +231,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6139B2412315733900713CCD /* TestCartViewController.xib in Resources */,
+				6139B2352314C3FA00713CCD /* ColorViewCell.xib in Resources */,
 				6139B1FD231413F900713CCD /* LaunchScreen.storyboard in Resources */,
+				6139B24A2315849200713CCD /* Localizable.strings in Resources */,
 				6139B1FA231413F900713CCD /* Assets.xcassets in Resources */,
-				6139B1F8231413F800713CCD /* Main.storyboard in Resources */,
+				6139B2392314C40A00713CCD /* FontViewCell.xib in Resources */,
+				6139B2472315823500713CCD /* StringsViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +248,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6139B1F5231413F800713CCD /* ViewController.swift in Sources */,
+				6139B23D2314CBA800713CCD /* StringTableViewController.swift in Sources */,
+				6139B2342314C3FA00713CCD /* ColorViewCell.swift in Sources */,
+				6139B21423145EFB00713CCD /* UIDebug.swift in Sources */,
+				6139B21A23145EFB00713CCD /* UIDebugClassDetailViewController.swift in Sources */,
+				6139B21723145EFB00713CCD /* UIDebugClassCollectionViewController.swift in Sources */,
+				6139B2272314732C00713CCD /* DDStyle.swift in Sources */,
+				6139B2402315733900713CCD /* TestCartViewController.swift in Sources */,
+				6139B2252314721F00713CCD /* DDColor.swift in Sources */,
+				6139B21F2314604D00713CCD /* MainViewController.swift in Sources */,
+				6139B21523145EFB00713CCD /* UIDebugClassListViewController.swift in Sources */,
+				6139B2432315744F00713CCD /* LoginViewController.swift in Sources */,
+				6139B21823145EFB00713CCD /* UIDebug+UIViews.swift in Sources */,
+				6139B21C23145EFB00713CCD /* UIDebugBundleListViewController.swift in Sources */,
+				6139B2292314754800713CCD /* DDString.swift in Sources */,
+				6139B2462315823500713CCD /* StringsViewCell.swift in Sources */,
 				6139B1F3231413F800713CCD /* AppDelegate.swift in Sources */,
+				6139B21923145EFB00713CCD /* UIDebug+Enums.swift in Sources */,
+				6139B22B2314789600713CCD /* DebugUXStyleTableViewController.swift in Sources */,
+				6139B21623145EFB00713CCD /* UIDebug+Protocols.swift in Sources */,
+				6139B23B2314C8F000713CCD /* DebugTableViewController.swift in Sources */,
+				6139B2382314C40A00713CCD /* FontViewCell.swift in Sources */,
+				6139B2222314703E00713CCD /* Demo+UIDebug.swift in Sources */,
+				6139B21B23145EFB00713CCD /* UIDebug+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6139B1F6231413F800713CCD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6139B1F7231413F800713CCD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6139B1FB231413F900713CCD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6139B1FC231413F900713CCD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6139B24C2315849200713CCD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6139B24B2315849200713CCD /* en */,
+				6139B24D2315857300713CCD /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  DebugDemo
+
+  Created by Vince Davis on 8/27/19.
+  Copyright © 2019 Vince Davis. All rights reserved.
+*/
+
+"Main" = "Principal";
+"Debug" = "Depurar";
+"This Controller is the main controller of the app" = "Este controlador es el controlador principal de la aplicación.";
+"Main App Controllers" = "Controladores de aplicaciones principales";
+"Table View Cells" = "Celdas de vista de tabla";
+"None" = "Ninguno";
+"Red Background" = "Fondo rojo";
+"Style Guide" = "Guía de estilo";
+"Colors" = "Colores";
+"Fonts" = "Fuentes";
+"Hidden Debug" = "Depuración oculta";
+"Strings" = "Instrumentos de cuerda";
+"Debug Views" = "Vistas de depuración";
